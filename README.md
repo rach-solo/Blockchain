@@ -9,14 +9,16 @@
 ```
 --datadir node1 # specify location of new node
 ```
-
+* Choose password to seal wallet
 * Run puppeth
 
 ```
 ./puppeth
 ```
-
-	* Chose Clique (Proof of Authority)
+* Select properties of network
+	* Block time - Speed at which blocks can be created
+	* Chose Clique (Proof of Authority) - Method of which nodes agree upon transactions
+	* Chain ID - Unique identifier for the network
 
 	* Pre-fund your node accounts
 

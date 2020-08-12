@@ -22,7 +22,8 @@
 
 	* Pre-fund your node accounts
 
-* Export network and copy to directory containing nodes
+* Export network and copy to directory containing nodes, and view it
+[!image][Screenshots/img1.PNG]
 
 * Initialize nodes with geth and network
 ```
@@ -52,9 +53,11 @@
 ```
 
 * From mycrypto create a new node
-[!image][Screenshots/hash.PNG]
+[!image][Screenshots/img2.PNG]
 * Log in via keystore file
-[!image][Screenshots/]
+[!image][Screenshots/img3]
 * Send transaction by inputing other nodes address
-[!image][Screenshots/]
+[!image][Screenshots/img4]
+* Check on transaction status
+[!image][Screenshots/img5]
 

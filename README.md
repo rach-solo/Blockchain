@@ -52,7 +52,7 @@
 ```
 
 * From mycrypto create a new node
-[!image][Screenshots/hash.png]
+[!image][Screenshots/hash.PNG]
 * Log in via keystore file
 [!image][Screenshots/]
 * Send transaction by inputing other nodes address

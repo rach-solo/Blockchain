@@ -1,0 +1,37 @@
+=============== Aug 12, 2020 (PDT) ===============
+15:34:19.564065 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:34:19.584586 db@open opening
+15:34:19.585689 version@stat F·[] S·0B[] Sc·[]
+15:34:19.599279 db@janitor F·2 G·0
+15:34:19.599351 db@open done T·14.663306ms
+15:36:17.673072 db@close closing
+15:36:17.673287 db@close done T·208.186µs
+=============== Aug 12, 2020 (PDT) ===============
+15:36:33.090067 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:36:33.090536 version@stat F·[] S·0B[] Sc·[]
+15:36:33.090615 db@open opening
+15:36:33.090775 journal@recovery F·1
+15:36:33.090951 journal@recovery recovering @1
+15:36:33.103139 memdb@flush created L0@2 N·355 S·12KiB "loc..seq,v38":"version,v1"
+15:36:33.103546 version@stat F·[1] S·12KiB[12KiB] Sc·[0.25]
+15:36:33.137464 db@janitor F·3 G·0
+15:36:33.137525 db@open done T·46.883786ms
+15:39:00.189506 db@close closing
+15:39:00.189869 db@close done T·359.676µs
+=============== Aug 12, 2020 (PDT) ===============
+15:39:17.557988 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:39:17.558794 version@stat F·[1] S·12KiB[12KiB] Sc·[0.25]
+15:39:17.558851 db@open opening
+15:39:17.558985 journal@recovery F·1
+15:39:17.559166 journal@recovery recovering @3
+15:39:17.573031 memdb@flush created L0@5 N·436 S·15KiB "loc..seq,v366":"n:\xff..ong,v682"
+15:39:17.573469 version@stat F·[2] S·27KiB[27KiB] Sc·[0.50]
+15:39:17.607972 db@janitor F·4 G·0
+15:39:17.608112 db@open done T·49.236311ms
+15:39:22.231422 table@compaction L0·2 -> L1·0 S·27KiB Q·815
+15:39:22.247587 table@build created L1@8 N·713 S·26KiB "loc..seq,v366":"version,v1"
+15:39:22.247725 version@stat F·[0 1] S·26KiB[0B 26KiB] Sc·[0.00 0.00]
+15:39:22.253476 table@compaction committed F-1 S-1KiB Ke·0 D·78 T·21.957302ms
+15:39:22.254344 table@remove removed @2
+16:10:34.520440 db@close closing
+16:10:34.522488 db@close done T·2.043449ms
